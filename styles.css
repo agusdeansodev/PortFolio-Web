@@ -1,0 +1,134 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body.index {
+    background-image: url('https://img.freepik.com/fotos-premium/podium-artistico-3d-fondo-abstracto-vibrante-colores-modernos_1299130-4675.jpg?w=826');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Fija la imagen de fondo */
+}
+
+body.about {
+    background-image: url('https://img.freepik.com/fotos-premium/interior-apartamento-imagenes-fondo_1179130-644958.jpg?w=740');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body.myskills {
+    background-image: url('https://img.freepik.com/fotos-premium/fondo-abstracto-3d-creativo-colores-gradiente-diseno-habitacion_1299130-4476.jpg?w=826');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body.Contacto {
+    background-image: url('https://img.freepik.com/fotos-premium/podium-artistico-3d-colorido-fondo-abstracto-diseno-creativo_1299130-4673.jpg?w=826');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: 20vh;
+}
+
+
+main {
+
+    flex: 1;
+}
+
+main.about{
+
+    text-align: right;
+}
+
+p.about{
+    text-align: left;
+
+}
+.contenedorAbout{
+    max-width: 600px; /* Ajusta el ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer{
+
+    text-align:left;
+    padding:0;
+    width: 100%;
+}
+
+
+.contenido {
+    position: relative;
+    z-index: 1;
+}
+
+   
+.textBody{
+       font-style: normal;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       text-align: center;
+       color: rgb(19, 17, 17);
+}
+.textHeader{
+       font-style:normal;
+       font-size:large;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       text-align: center;
+       color: rgb(19, 18, 18); 
+}
+
+.estructuraFooter{
+    
+    width: 100%;
+    padding: 0;
+    margin: 0;
+   }
+  
+   .block{
+    display:block;
+   }
+
+   .inline{
+    display: inline;
+   }
+
+   .margen{
+    margin: 2rem;
+
+   }
+
+   /* Elimina el subrayado y cambia el color de los enlaces */
+nav a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: inherit; /* Usa el color del elemento padre */
+}
+
+/* Cambia el color de los enlaces al pasar el ratón por encima */
+nav a:hover {
+    color: #ff6600; /* Cambia este color según tus preferencias */
+}
+
+.icono {
+    width: 7rem; /* Ajusta el ancho del icono */
+    height: 5rem; /* Ajusta la altura del icono */
+}
+
+   
